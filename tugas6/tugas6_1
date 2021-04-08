@@ -1,0 +1,28 @@
+{Nama : Abdillah Miladius Firdaus}
+{NPM : 20.14.1.0046}
+{Nama program : Menghitung_luas}
+
+program prosedur_luas_lingkaran;
+uses crt;
+
+var
+j,phi:integer;
+
+procedure luas_lingkaran(jari_jari:real);
+var luas:real;
+
+const
+phi=3.14;
+
+begin
+luas:=phi*j*j;
+writeln('luas lingkaran :',luas:0:0);
+end;
+
+begin
+writeln('Jari jari lingkaran  :');readln(j);
+luas_lingkaran(j);
+
+readln;
+
+end.
